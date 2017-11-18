@@ -1,7 +1,15 @@
 # CHANGELOG
 
-## 1.0.14 - Work in progress
+## 1.1.1 - Work in progress
+- Bug #111: Fix migration for PostgreSQL DBMS (MKiselev)
+- Bug #106: Correct exception value returned in `MailEvent::getException` (kartik-v)
+- Enh #99:  Added German translation (jkmssoft)
+- Enh #100: Added pt-BR translation (gugoan)
+- Enh #105: Consolidate 2fa messages (maxxer)
+- Fix #108: Use main logger app (tonydspaniard)
+- Enh #109: Make use of better classes names (tonydspaniard)
 
+## 1.1.0 - October 22, 2017
 - Enh #91: Documentation for Mail events (kartik-v)
 - Enh #79: Enhancements to Mailer exception handling and events (kartik-v)
 - Fix #85: External links should open in a new tab|window (eseperio)
@@ -19,6 +27,8 @@
 - Enh #70: Allow permission-permission parent-child relationship (Philosoft)
 - Enh #82: Updated Polish translation (bizley)
 - Enh #83: Updated Russian translation (Katenkka)
+- Fix #87: Fix wrong documentation info (tonydspaniard)
+- Fix #86: Fix view location bug (tonydspaniard)
 
 ## 1.0.13 - August 12, 2017
 - Fix #49: Fix wrong call of method make() for set attributes (MKiselev)
